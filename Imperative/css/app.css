@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#app {
+  margin: 0 auto;
+  width: 30%;
+  font-size: 20px;
+  text-align: left;
+}
+.todo-item {
+  list-style: none;
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+.todo-item .title .editing {
+    display: none;
+}
+
+.todo-item .editing .textfield {
+    display: block;
+}
